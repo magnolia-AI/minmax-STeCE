@@ -44,7 +44,7 @@ export function About() {
               🚀
             </motion.span>
           </motion.h2>
-            <div className="space-y-4 text-foreground text-lg leading-relaxed bg-background/95 backdrop-blur-sm p-6 rounded-xl border border-border/20 shadow-sm">
+            <div className="space-y-4 text-black dark:text-foreground text-lg font-medium leading-relaxed bg-card/100 backdrop-blur-none p-6 rounded-xl border border-border shadow-lg">
               <motion.p
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -83,7 +83,7 @@ export function About() {
             >
                <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent z-10" />
                <Image
-                 src="/images/high-contrast-developer-portrait.jpg"
+                 src="/images/flux_KW7hsujtwj.png"
                  alt="Software developer in scenic landscape"
                  width={320}
                  height={320}
@@ -96,6 +96,9 @@ export function About() {
     </section>
   )
 }
+
+
+
 
 
 
