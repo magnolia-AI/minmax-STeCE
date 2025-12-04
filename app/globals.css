@@ -30,45 +30,45 @@
   --popover: 1 0 0;
   --popover-foreground: 0.15 0.02 280;
 
-  /* Primary: Vibrant Indigo/Purple */
-  --primary: 0.55 0.22 280;
+  /* Primary: Vibrant Green */
+  --primary: 0.55 0.22 120;
   --primary-foreground: 0.98 0 0;
 
-  /* Secondary: Fresh Teal/Cyan */
-  --secondary: 0.92 0.06 190;
-  --secondary-foreground: 0.30 0.10 190;
+  /* Secondary: Fresh Green */
+  --secondary: 0.92 0.06 120;
+  --secondary-foreground: 0.30 0.10 120;
 
   /* Muted: Soft Grey-Purple */
   --muted: 0.96 0.01 280;
   --muted-foreground: 0.50 0.04 280;
 
-  /* Accent: Soft Purple/Pink for selection/hovers */
-  --accent: 0.94 0.05 310;
-  --accent-foreground: 0.40 0.15 310;
+  /* Accent: Soft Green for selection/hovers */
+  --accent: 0.94 0.05 130;
+  --accent-foreground: 0.40 0.15 130;
 
   /* Destructive */
   --destructive: 0.6 0.2 25;
   --destructive-foreground: 0.98 0 0;
 
-  --border: 0.90 0.02 280;
-  --input: 0.90 0.02 280;
-  --ring: 0.60 0.20 280;
+  --border: 0.90 0.02 120;
+  --input: 0.90 0.02 120;
+  --ring: 0.60 0.20 120;
 
   /* Chart colors for visualizations */
-  --chart-1: 0.55 0.22 280; /* Primary Purple */
-  --chart-2: 0.60 0.18 190; /* Teal */
-  --chart-3: 0.70 0.15 320; /* Pink */
-  --chart-4: 0.75 0.15 60;  /* Orange/Yellow */
-  --chart-5: 0.65 0.18 240; /* Blue */
+  --chart-1: 0.55 0.22 120; /* Primary Green */
+  --chart-2: 0.60 0.18 140; /* Lighter Green */
+  --chart-3: 0.70 0.15 160; /* Yellow-Green */
+  --chart-4: 0.75 0.15 100; /* Dark Green */
+  --chart-5: 0.65 0.18 80; /* Olive Green */
 
   --sidebar: 0.98 0 0;
-  --sidebar-foreground: 0.15 0.02 280;
-  --sidebar-primary: 0.55 0.22 280;
+  --sidebar-foreground: 0.15 0.02 120;
+  --sidebar-primary: 0.55 0.22 120;
   --sidebar-primary-foreground: 0.98 0 0;
-  --sidebar-accent: 0.95 0.04 280;
-  --sidebar-accent-foreground: 0.55 0.22 280;
-  --sidebar-border: 0.90 0.02 280;
-  --sidebar-ring: 0.60 0.20 280;
+  --sidebar-accent: 0.95 0.04 120;
+  --sidebar-accent-foreground: 0.55 0.22 120;
+  --sidebar-border: 0.90 0.02 120;
+  --sidebar-ring: 0.60 0.20 120;
 }
 
 .dark {
@@ -82,34 +82,34 @@
   --popover: 0.15 0.04 280;
   --popover-foreground: 0.98 0 0;
 
-  /* Primary: Neon Indigo/Purple */
-  --primary: 0.70 0.20 280;
-  --primary-foreground: 0.10 0.03 280;
+  /* Primary: Bright Green */
+  --primary: 0.70 0.20 120;
+  --primary-foreground: 0.10 0.03 120;
 
-  /* Secondary: Teal */
-  --secondary: 0.25 0.10 190;
-  --secondary-foreground: 0.90 0.05 190;
+  /* Secondary: Green */
+  --secondary: 0.25 0.10 120;
+  --secondary-foreground: 0.90 0.05 120;
 
   --muted: 0.20 0.04 280;
   --muted-foreground: 0.70 0.05 280;
 
-  /* Accent: Deep Purple Hover */
-  --accent: 0.25 0.08 280;
+  /* Accent: Deep Green Hover */
+  --accent: 0.25 0.08 120;
   --accent-foreground: 0.98 0 0;
 
   --destructive: 0.4 0.2 25;
   --destructive-foreground: 0.98 0 0;
 
-  --border: 0.25 0.04 280;
-  --input: 0.25 0.04 280;
-  --ring: 0.70 0.20 280;
+  --border: 0.25 0.04 120;
+  --input: 0.25 0.04 120;
+  --ring: 0.70 0.20 120;
 
   /* Chart colors for dark mode */
-  --chart-1: 0.70 0.20 280; /* Purple */
-  --chart-2: 0.65 0.15 190; /* Teal */
-  --chart-3: 0.75 0.15 320; /* Pink */
-  --chart-4: 0.80 0.15 60;  /* Orange */
-  --chart-5: 0.70 0.15 240; /* Blue */
+  --chart-1: 0.70 0.20 120; /* Green */
+  --chart-2: 0.65 0.15 140; /* Lighter Green */
+  --chart-3: 0.75 0.15 160; /* Yellow-Green */
+  --chart-4: 0.80 0.15 100; /* Dark Green */
+  --chart-5: 0.70 0.15 80; /* Olive Green */
 
   --sidebar: 0.15 0.04 280;
   --sidebar-foreground: 0.98 0 0;
@@ -129,3 +129,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+
+
+
+
+
+
+
+
