@@ -83,7 +83,7 @@ export function About() {
             >
                <div className="absolute inset-0 bg-gradient-to-tr from-primary/20 to-transparent z-10" />
                <Image
-                 src="/images/flux_KW7hsujtwj.png"
+                 src="/images/high-contrast-developer-portrait.jpg"
                  alt="Software developer in scenic landscape"
                  width={320}
                  height={320}
@@ -96,6 +96,7 @@ export function About() {
     </section>
   )
 }
+
 
 
 
